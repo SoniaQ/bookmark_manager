@@ -19,4 +19,4 @@ I'd like to be able to add or remove a website to/from my list
 Domain Model
 -------------
 
-![alt text](images/domain_model.jpg)
+![alt text](images/domain_model.jpg =250x250)
