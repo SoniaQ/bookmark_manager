@@ -19,4 +19,5 @@ I'd like to be able to add or remove a website to/from my list
 Domain Model
 -------------
 
-![Domain Model](https://github.com/SoniaQ/bookmark_manager/blob/master/images/domain_model.png)
+<!-- ![Domain Model](https://github.com/SoniaQ/bookmark_manager/blob/master/images/domain_model.png) -->
+![Domain Model](/images/domain_model.png)
