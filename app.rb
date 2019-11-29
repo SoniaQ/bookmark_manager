@@ -11,6 +11,9 @@ get '/' do
 end
 
 get '/bookmarks' do
+  # Print the ENV variable
+  p ENV
+  
   @bookmarks = Bookmark.all
   erb :'bookmarks/index'
 end

@@ -1,6 +1,16 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/project/week_6/bookmark_manager/spec/setup_test_database.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
       "/Users/student/project/week_6/bookmark_manager/app.rb": [
         1,
         1,
@@ -15,6 +25,9 @@
         null,
         null,
         1,
+        null,
+        1,
+        null,
         1,
         1,
         null,
@@ -31,7 +44,13 @@
         1,
         2,
         2,
-        8,
+        null,
+        0,
+        null,
+        null,
+        null,
+        2,
+        11,
         null,
         null,
         null,
@@ -50,6 +69,12 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
         null,
         null,
         1,
@@ -72,11 +97,20 @@
         1,
         null,
         1,
+        null,
+        1,
         1,
         1,
         null,
         null,
         1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
         1,
         null,
         null,
@@ -88,6 +122,6 @@
         null
       ]
     },
-    "timestamp": 1574948183
+    "timestamp": 1575041950
   }
 }

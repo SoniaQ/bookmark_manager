@@ -1,3 +1,5 @@
+require 'pg'
+
 feature 'Viewing bookmarks' do
 
   scenario 'visiting the index page' do
@@ -6,6 +8,13 @@ feature 'Viewing bookmarks' do
   end
 
   scenario 'A user can see bookmarks' do
+    connection = PG.connect(dbname: 'bookmark_manager_test')
+
+    # Add the test data
+    connection.exec("INSERT INTO bookmarks (url) VALUES ('https://askjeeves.net/');")
+    connection.exec("INSERT INTO bookmarks (url) VALUES ('https://snake.googlemaps.com/');")
+    connection.exec("INSERT INTO bookmarks (url) VALUES ('https://beeroclock.in/');")
+
     visit '/bookmarks'
     # expect(page).to have_content "https://makers.tech/"
     # expect(page).to have_content "http://google.com"
